@@ -1,0 +1,30 @@
+{
+  "name": "scrapyscraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgcollinson/ScrapyScraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgcollinson/Scrapy/issues"
+  },
+  "homepage": "https://github.com/jgcollinson/ScrapyScraper#readme",
+  "dependencies": {
+    "morgan": "^1.9.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express-handlebars": "^3.0.0",
+    "express": "^4.16.3",
+    "request": "^2.87.0",
+    "nodemon": "^1.17.5",
+    "body-parser": "^1.18.3",
+    "mongoose": "^5.1.5"
+  }
+}
